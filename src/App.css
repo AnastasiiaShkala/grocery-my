@@ -1,0 +1,69 @@
+body {
+  background-image: url(greyphone1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: 'Diphylleia', serif;
+  font-size: 30px;
+}
+.lane {
+  display: flex;
+  justify-content: center;
+  font-family: 'Diphylleia', serif;
+  font-size: 20px;
+  color: black;
+}
+.crossed {
+  background-color: #F55C47;
+
+}
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Diphylleia', serif;
+  font-size: 20px;
+ font-weight: bolder;
+}
+li {
+  background-color: #9FE6A0;
+  border-radius: 5px;
+}
+.add {
+  margin-top: 10px;
+  background: #EEEEEE;
+  color: #4AA96C;
+  padding: 10px;
+  border: solid 4px #4AA96C;
+  border-radius: 5px;
+  width: 15%;
+  font-size: 19px;
+  font-weight: bolder;
+  font-family: 'Diphylleia', serif;
+}
+.delete {
+  background: #EEEEEE;
+  border: solid 4px #F55C47;
+  border-radius: 5px;
+  color: #F55C47;
+  padding: 10px;
+  width: 15%;
+  font-weight: bolder;
+  font-size: 19px;
+  font-family: 'Diphylleia', serif;
+}
+input {
+  width: 34%;
+  padding: 8px;
+border: none; 
+border-radius: 5px;
+  font-family: 'Diphylleia', serif;
+  font-size: 15px;
+}
