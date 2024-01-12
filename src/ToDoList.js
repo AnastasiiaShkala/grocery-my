@@ -1,5 +1,5 @@
 import { Component } from "react";
-import done from './done.png';
+import done from './assets/done.png';
 
 export class ToDoList extends Component {
     state = {
